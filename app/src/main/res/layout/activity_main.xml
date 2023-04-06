@@ -16,39 +16,4 @@
         android:src="@drawable/tap"
         android:id="@+id/ivTap"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnFirst"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="FIRST"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:layout_marginHorizontal="@dimen/_25sdp"
-        app:backgroundTint="#8BC34A"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivTap" />
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnSecond"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Second"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:layout_marginHorizontal="@dimen/_25sdp"
-        app:backgroundTint="#8BC34A"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnFirst" />
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnThird"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Third"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:layout_marginHorizontal="@dimen/_25sdp"
-        app:backgroundTint="#8BC34A"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSecond" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
